@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* .navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    } /* Ensures the navbar is on top of other content */
+
+
+.nav a:hover {
+    color: red;
+}
+
+#about-text {
+    /* background-color:  #f59e0b; */
+    /* background-color:  white; */
+    color: darkblue;
+}
+
+#about-text h1 {
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+
+#about-text p {
+    font-size: 1.5rem;
+
+}
+
+.header {
+    height: 100vh;
+    position: relative;
+}
+
+.navbar-style {
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+
+.logo {
+    height: 48px;
+    padding: 2px 10px;
+}
+
+.icon-bar {
+    background: darkblue;
+}
+
+li a {
+    color: darkblue;
+}
+
+.navbar-header a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+
+
+
+.content {
+    background-image: linear-gradient(rgba(3, 6, 25, 0.7), rgba(6, 2, 73, 0.7)), url('images/a1.jpg');
+    /* 
+    background-image: linear-gradient(rgba(26, 1, 35, 0.7), rgba(44, 1, 1, 0.7)), url('images/a1.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    /* Center horizontally */
+    justify-content: center;
+    /* Center vertically */
+    color: white;
+    text-align: center;
+    /* Center text within the content */
+    margin: 0;
+    padding: 20px;
+    /* Optional: Add padding if needed */
+}
+
+.content h1 {
+    font-size: 4.5em;
+    /* Increase the font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    /* Ensure the text is on a single line */
+}
+
+.content p {
+    font-size: 1.7rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 3rem;
+        /* Smaller size for tablets */
+    }
+
+    .content p {
+        font-size: 1rem;
+        /* Smaller size for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .content h1 {
+        font-size: 1.4rem;
+        /* Smaller size for mobile devices */
+    }
+
+    .content p {
+        font-size: 0.9rem;
+        /* Smaller size for mobile devices */
+    }
+}
+
+
+
+/* #about-text{
+    background-image: linear-gradient(rgba(247, 183, 80, 0.7), rgba(182, 14, 14, 0.7));
+    
+} */
+
+#c1 {
+    /* background-color: darkblue; */
+    /* background-image: #2a0123; */
+    color: darkblue;
+    border-radius: 5px;
+}
+
+#c1 h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#c1 p {
+    font-size: 1.7rem;
+    font-weight: lighter;
+}
+
+
+.card {
+    /* background-image: linear-gradient(rgba(3, 0, 11, 0.7), rgba(77, 6, 255, 0.7)); */
+    color: darkblue;
+
+}
+
+#info1 {
+    border-radius: 30px;
+    box-shadow: rgb(40, 40, 43) 2px;
+    border: solid darkblue 2px;
+}
+
+.card-body h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.card-body p {
+    font-size: 1.7rem;
+    font-weight: lighter;
+}
+
+.card-body:hover {
+    /* box-shadow: 0px 0px 8px 8px rgba(1, 9, 79, 0.7); */
+    transition: box-shadow 0.3s ease-in-out;
+    border-color: black;
+}
+
+.card-text {
+    padding: 5px;
+}
+
+.fixed-height {
+    border-radius: 40px;
+}
+
+#expert {
+    /* background-image: linear-gradient(rgba(98, 94, 108, 0.7), rgba(153, 149, 212, 0.7)); */
+    color: darkblue;
+}
+
+#expert h3 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.img-fluid {
+    align-items: center;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+#pk {
+    color: darkblue;
+}
+
+#pk h3 {
+    font-weight: bold;
+}
+
+.br {
+    color: darkblue;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.pk1 {
+    color: darkblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pk1 h3:hover {
+    color: rgb(214, 245, 43);
+}
+
+
+
+
+.card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* Space between cards */
+}
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-img-top {
+    height: 200px;
+    /* Set a fixed height for all images */
+    object-fit: cover;
+    /* Ensures the images cover the set height and width without distortion */
+}
+
+
+
+#c {
+    /* background-image: linear-gradient(rgba(3, 0, 11, 0.7), rgba(77, 6, 255, 0.7)); */
+    color: darkblue;
+}
+
+.card-body h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.card-body p {
+    font-size: 1.7rem;
+    font-weight: lighter;
+}
+
+.say {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: darkblue;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.review {
+    color: darkblue;
+    /* Bootstrap primary color */
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    text-align: center;
+}
+
+.review:hover {
+    color: red;
+    /* Darker shade on hover */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial {
+    border: 1px solid darkblue;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    /* background-color: #fff3f3; */
+    /* background-color: rgb(249, 248, 251); */
+}
+
+.testimonial h4 {
+    margin-top: 10px;
+    color: darkblue;
+}
+
+.testimonial p {
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.testimonial .fa {
+    color: red;
+}
+
+
+.test {
+    border: 1.5px solid darkblue;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    background-color: rgb(249, 248, 251);
+    color: darkblue;
+}
+
+.test:hover {
+    box-shadow: 0px 0px 10px 8px rgba(2, 6, 51, 0.7);
+    transition: box-shadow 0.3s ease-in-out;
+    border-color: black;
+}
+
+#c1 {
+    background-color: rgb(243, 241, 247);
+
+}
+
+.test h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.test p {
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 1.7rem;
+}
+
+
+
+
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures images cover the area without distortion */
+  }
+  .carousel {
+    margin-bottom: 0;
+    padding-bottom: 0; /* Ensure no padding is added below the carousel */
+  }
+  .carousel-control {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for controls */
+  }
+  @media (max-width: 768px) {
+    .carousel-inner img {
+      height: 60vh; /* Adjust height for mobile screens if needed */
+    }
+  }
+
+#about-text h1 {
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+
+#about-text p {
+    font-size: 1.5rem;
+
+}
+
+
+.info-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.comment-box,
+.location {
+    padding: 10px;
+    margin-bottom: 20px;
+    /* Ensure space between rows on smaller screens */
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+    background: #f0f0f0;
+}
+
+.comment-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: darkblue;
+    /* Adjust to your design */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.comment-form button:hover {
+    background-color: #e64a19;
+    /* Adjust to your design */
+}
+
+.location iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+
+    .comment-box,
+    .location {
+        width: 100%;
+    }
+}
+
+#contact1 h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: darkblue;
+}
+
+#gallery p{
+    font-size: 2rem;
+    color: darkblue;
+    font-weight: lighter;
+}
+
+#gallery h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.footer {
+    background: darkblue;
+    color:white;
+    padding: 20px 0;
+  }
+  .footer h2 {
+    color:white;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .footer p, .footer a {
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 1.5;
+  }
+  .footer a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .footer .social-links a {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .footer .social-links a:hover {
+    color: white;
+  }
+  
+  .footer-bottom {
+    background: #060606;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .footer-bottom a {
+    color:white;
+    text-decoration: none;
+  }
+  .footer-bottom a:hover {
+    text-decoration: underline;
+    color: yellow;
+  } 
+ 
+
+ 
+  
+  .carousel-inner img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover; /* Ensures images cover the area without distortion */
+  }
+  .carousel {
+    margin-bottom: 0;
+    padding-bottom: 0; /* Ensure no padding is added below the carousel */
+  }
+  .carousel-control {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for controls */
+  }
+  @media (max-width: 768px) {
+    .carousel-inner img {
+      height: 60vh; /* Adjust height for mobile screens if needed */
+    }
+  }
