@@ -117,12 +117,12 @@ li a {
 
 @media (max-width: 480px) {
     .content h1 {
-        font-size: 1.4rem;
+        font-size: 2rem;
         /* Smaller size for mobile devices */
     }
 
     .content p {
-        font-size: 0.9rem;
+        font-size: 1.4rem;
         /* Smaller size for mobile devices */
     }
 }
